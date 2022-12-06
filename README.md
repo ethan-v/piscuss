@@ -2,6 +2,12 @@
 
 Piscuss is a fast and lightweight open source discussion application.
 
+**Technical stack**
+
+- Python 3.8+
+- Django 4.x
+- Django Rest Framework 3.x
+
 ## Features
 
 - [ ] All Threads
@@ -15,6 +21,13 @@ Piscuss is a fast and lightweight open source discussion application.
 
 ## Development
 
+Install dependencies with poetry
+
+```shell
+poetry shell
+poetry install
+```
+
 Start project
 
 ```shell
@@ -27,6 +40,18 @@ Create a admin user
 ```shell
 python manage.py createsuperuser
 # piscuss / piscuss / piscuss@example.com
+```
+
+Run tests
+
+```shell
+python manage.py test
+```
+
+Check Restful API
+
+```text
+http://localhost:8000/api/
 ```
 
 ## Deployment
