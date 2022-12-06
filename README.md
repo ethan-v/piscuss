@@ -1,4 +1,10 @@
-# Piscuss
+<p align="center">
+    <img src="piscuss.png" alt="Piscuss | Opensource Discussion Application">
+</p>
+
+<p align="center">
+    <a><img src="https://github.com/ethan-v/piscuss/actions/workflows/test-django-app.yml/badge.svg" alt="Build Status"></a>
+</p>
 
 Piscuss is a fast and lightweight open source discussion application.
 
