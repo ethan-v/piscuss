@@ -22,6 +22,13 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+Create a admin user
+
+```shell
+python manage.py createsuperuser
+# piscuss / piscuss / piscuss@example.com
+```
+
 ## Deployment
 
 comming soon...
